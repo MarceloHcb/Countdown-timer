@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
 body{
     background: url(./src/images/bg-stars.svg);
-    background-color:  hsl(235, 16%, 14%);
+    background-color:  #18131d;
     height: 100vh;
     color: rgb(255, 255, 255);
     font-family: "Red Hat Text", sans-serif ;
