@@ -6,8 +6,7 @@ body{
     color: rgb(255, 255, 255);
     font-family: "Red Hat Text", sans-serif ;
     font-weight: 700;
-    Font-size: 14px;
-    
+    Font-size: 14px;    
 }
 main{
     display: flex;
@@ -76,8 +75,7 @@ h1{
 .box-top{
     background-color: hsl(237, 31%, 23%);
     width: 185px;
-    height: 70px;
-    
+    height: 70px;    
     border-start-end-radius: 10px;
     border-start-start-radius: 10px;
     box-shadow: 10px 10px 10px black;
@@ -109,7 +107,8 @@ p{
     opacity: 0.3;
 }
 .footer{
-    height: 100vh;
+   
+    height: 20vh;
 }    
 .footer img{
     width: 100%;
