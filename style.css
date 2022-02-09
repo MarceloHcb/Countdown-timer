@@ -116,6 +116,7 @@ p{
     height: 30vh;
     position: absolute;
     bottom: 0;
+    right: 0;
 }
 .social-medias{
     display: flex;
