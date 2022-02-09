@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+body{
+    background: url(./src/images/bg-stars.svg);
+    background-color:  hsl(235, 16%, 14%);
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    font-family: "Red Hat Text", sans-serif ;
+    font-weight: 700;
+    Font-size: 14px;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;   
+    padding: 40px;
+}
+h1{
+    letter-spacing: 8px;
+}
+#years{
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap:100px       
+}
+.time{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+ 
+}
+.box{
+    position: relative;   
+    width: 160px;
+    height: 120px;
+    background-color: black;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(345, 95%, 68%);
+    gap:20px;
+    padding: 10px;
+    
+}
+.box::after{
+    content: "_____________________________";    
+     position: absolute;
+    border-bottom: 3px solid black;
+    color:black;    
+    display: flex;
+    opacity: 0.1;
+    z-index: 3;
+}
+.box-bottom{
+    background-color: hsl(236, 21%, 26%);
+    width: 185px;
+    height: 70px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+   position: absolute;
+   gap:10px;  
+   bottom: 0;
+   z-index: 1;
+}
+.box-top{
+    background-color: hsl(237, 31%, 23%);
+    width: 185px;
+    height: 70px;
+    
+    border-start-end-radius: 10px;
+    border-start-start-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    position: absolute;
+    gap:10px;  
+    top: 0;
+  
+
+}
+h2{
+    font-size: 90px;  
+    z-index: 2;
+}
+.count{     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    color:  hsl(237, 18%, 59%);
+}
+p{
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+#years{
+    position: absolute;
+    top: 0;
+    opacity: 0.3;
+}
+.footer{
+    height: 100vh;
+}    
+.footer img{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    bottom: 0;
+}
+.social-medias{
+    display: flex;
+    position: absolute;
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;    
+}
+.social-medias a{
+    width: 80px;
+    color:  hsl(237, 18%, 59%);
+    font-size: 40px;    
+}
+.social-medias a:hover{
+   color:hsl(345, 95%, 68%); ;
+}
+
